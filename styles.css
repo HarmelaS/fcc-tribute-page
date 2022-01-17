@@ -1,29 +1,175 @@
-/* #img-div {
-    width: 100%;
+* {
+  overflow-x: hidden;
+}
+
+body {
+  margin: auto;
+}
+
+span,
+a:visited {
+  color: #fdb927;
+}
+
+#quote {
+  background-color: #fff;
+}
+
+#img-div {
+  background-color: #000;
+  width: 100%;
+}
+
+#title {
+  margin-bottom: 5px;
+  font-size: 88px;
+}
+
+#title-sub {
+  font-size: 36px;
+  margin: 0px 10px 50px 0px;
+}
+
+#title,
+#title-sub {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  text-align: center;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#quote {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+
+#signature {
+  padding-bottom: 20px;
+}
+
+#kobe-pic1,
+#kobe-pic2 {
+  padding: 100px;
 }
 
 #image {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    max-width: 100%;
-} */
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
 
-span {
-  color: #fdb927;
+#tribute-info {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+}
+
+.side-info-1,
+.side-info-2 {
+  display: flex;
+  align-items: center;
+}
+
+.side-info-2 {
+  padding-left: 50px;
+}
+
+.side-image-1,
+.side-image-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-info-1,
+.side-info-2,
+.side-image-1,
+.side-image-2 {
+  display: grid;
+  width: 50%;
+}
+
+.side-info-1,
+.side-info-2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
 }
 
 strong {
   color: #000;
   background-color: #fdb927;
-  padding: 3px;
+  padding: 0px 5px;
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+dl {
+  padding: 50px;
+}
+
+dt {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+dd {
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+
+#wiki-link {
+  margin: 0px;
+  padding: 20px 0px 50px 0px;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#kobe-quote-2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+footer {
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+ul:last-child {
+  margin-bottom: 0;
 }
 
 li {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+#quote {
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .side-info-2 {
+    padding-left: 0px;
+  }
 }
